@@ -1,3 +1,13 @@
+"""
+This script demonstrates how to use Google's Gemini AI model to analyze and describe audio content.
+It takes an MP3 audio file as input and uses Gemini's multimodal capabilities to generate a description
+of the audio content. The script:
+1. Loads an audio file from the local directory
+2. Sends the audio content to Gemini AI
+3. Gets back a text description of what the audio contains
+This can be useful for audio content analysis, transcription verification, or automated audio description generation.
+"""
+
 from google import genai
 from google.genai.types import Part
 from dotenv import load_dotenv
