@@ -8,7 +8,7 @@ model = ChatOpenAI(model = 'gpt-4o-mini')
 
 # 1st Prompt -> detailed report
 template1 = PromptTemplate(
-    template="Write a detailed report on {topic}",
+    template="Write a 100 word report on {topic}",
     input_variables=["topic"],
 )
 
